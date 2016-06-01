@@ -14,8 +14,8 @@ from oauth2client.service_account import ServiceAccountCredentials
 SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
 DISCOVERY_URI = ('https://analyticsreporting.googleapis.com/$discovery/rest')
 KEY_FILE_LOCATION = 'key.p12'
-SERVICE_ACCOUNT_EMAIL = 'google-api@omega-scope-132523.iam.gserviceaccount.com'
-VIEW_ID = '25552054'
+SERVICE_ACCOUNT_EMAIL = 'google-api@dulcet-port-132823.iam.gserviceaccount.com'
+VIEW_ID = '10541945'
 
 def initialize_analytics_reporting():
     """Initializes an analytics_reporting service object.
